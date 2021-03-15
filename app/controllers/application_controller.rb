@@ -1,8 +1,8 @@
 class ApplicationController < ActionController::Base
 #protect_from_forgery with :exeption
 
-  def hello
-    render html: "hola, mundo!"
+  def goodbye
+    render html: "Пока МИР!"
   end
 
 
